@@ -1,14 +1,19 @@
-import React from 'react'
-import Container from '../UI/Container'
+import React, { Fragment } from "react";
+import Container from "../UI/Container";
+import Card from "./Card";
+import classes from "./Portfolio.module.css";
 
-const Portfolio = () => {
+const Portfolio = (props) => {
+  const { items } = props;
   return (
-    <div>
-        <Container>
-            Portfolio
-        </Container>
-    </div>
-  )
-}
+    <Container>
+      <div className={classes.portfolio}>
+        {items.map((item) => (
+          <Card key={item.id} item={item} />
+        ))}
+      </div>
+    </Container>
+  );
+};
 
-export default Portfolio
+export default Portfolio;

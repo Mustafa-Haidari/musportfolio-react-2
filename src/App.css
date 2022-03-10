@@ -5,4 +5,73 @@
 
 body {
   font-family: 'Raleway', sans-serif;
+  background-color: #eee;
+}
+h1, p, span, div {
+  color: white;
+}
+
+/* btns */
+.btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  column-gap: .5rem;
+  padding: .5rem 0;
+}
+
+.btns a {
+  text-decoration: none;
+}
+
+.btns button {
+  flex: 1;
+  padding: .5rem;
+  font-family: inherit;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btns i {
+  font-size: 2rem;
+}
+
+/* techs */
+span.tech {
+  display: inline-block;
+  font-size: .8rem;
+  border-radius: 5px;
+  background-color: lightcoral;
+  padding: 4px 5px;
+  font-weight: bold;
+  color: white;
+}
+
+span.html {
+  background-color: #dd4b25;
+}
+
+span.css {
+  background-color: #254bdd;
+}
+
+span.js {
+  background-color: #f7df1e;
+  color: black;
+}
+
+span.react {
+  background-color: black;
+  color: #61dafb;
+}
+
+span.csharp {
+  background-color: green;
+  color: white;
+}
+
+span.web3 {
+  background-color: darkblue;
+  color: white;
 }

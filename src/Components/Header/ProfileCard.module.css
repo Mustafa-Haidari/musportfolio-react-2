@@ -4,13 +4,6 @@
     padding: 0;
 }
 
-.grid_center {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    gap: 2rem;
-    padding: 2rem 0 3rem 0;
-}
-
 .grid_center h1 {
     color: rgb(10, 161, 207);
     font-size: 3.2rem;
@@ -27,4 +20,13 @@
 .footer__social {
     color: white;
     font-size: 2.2rem;
+}
+
+.profileCard {
+    border-radius: 1rem;
+}
+
+.profileCard > img {
+    width: 100%;
+    
 }

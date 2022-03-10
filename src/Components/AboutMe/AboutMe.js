@@ -5,7 +5,7 @@ const AboutMe = () => {
   const myAge = new Date().getFullYear() - 1995;
 
   return (
-    <div>
+    <React.Fragment>
       <Container>
         <p>
           I am Mustafa, <span>{myAge}</span> years old pursuing my passion to
@@ -40,7 +40,7 @@ const AboutMe = () => {
           consistent styling across a web page.
         </p>
       </Container>
-    </div>
+    </React.Fragment>
   );
 };
 

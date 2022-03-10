@@ -3,11 +3,13 @@ import Container from '../UI/Container'
 
 const MyArt = () => {
   return (
-    <div>
+    <React.Fragment>
       <Container>
-        My art
+        <div>
+          <h1>hellow</h1>
+        </div>
       </Container>
-    </div>
+    </React.Fragment>
   )
 }
 
